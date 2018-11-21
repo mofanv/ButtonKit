@@ -40,6 +40,8 @@ ___
 
 ## Configuring the Library
 
+- Clone this Library by Open in GitHub Desktop
+
 - Create an app/libs directory inside your project and copy the generated ButtonKit/build/outputs/aar/SensingKitLib-release.aar (or the equivalent debug) file there.
 
 - Edit your app/build.gradle file and add a flatDir entry within **android{}** as shown bellow:
@@ -85,8 +87,9 @@ String tfOut = tf.getTapFeatures(MainActivity.this, clickButton, event);
 if (tfOut != "null") { System.out.println(tfOut);} // output if it is not null
 ```
 
+___
 **As a contrast**
-- So, if your have code at the beginning like this
+- So, if you have codes at the beginning like this:
 
 ```java
 import ...
@@ -101,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-- after add ButtonKit, it will looks like this
+- after adding ButtonKit, it will look like this:
 
 ```java
 import ...
